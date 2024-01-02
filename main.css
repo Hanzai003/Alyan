@@ -1,0 +1,247 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+   
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .6);
+    z-index: 999;
+    color: white;
+    
+   
+   
+}
+.navbar h1{
+    margin: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin-inline: 10px;
+    color: white;
+    list-style-type: none;
+   
+}
+
+.navbar-bottom {
+   
+    font-size: 22px;
+}
+
+.logo {
+    font-size: 28px;
+    margin-left: 50px;
+}
+
+.nav-link {
+    position: relative;
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.d-flex2{
+    display: flex;
+    justify-content: center;
+}
+.df1{
+    margin-top: 15px;
+}
+.background{
+    background-image: url(images/Air_University_Main_Campus\,_Islamabad.jpg);
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.video{
+    align-items: center;
+}
+.bottom{
+    background-color:purple;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+.background h1{
+    text-align: center;
+    padding-top: 21%;
+    font-size: 60px;
+    color: white;
+   position: absolute;
+    text-align: center;
+    padding-left:45% ;
+}
+.scd_page {
+   text-align: center;
+    
+}
+.scd_page h1{
+    
+font-weight: bolder;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 50px;
+
+
+}
+.scd_page p{
+    font-size: 35px;
+    
+}
+button{
+width: 300px;
+height: 50px;
+font-size: 20px;
+color: white;
+background-color: black;
+}
+.caa{
+    margin-top: 50px;
+   background-color: whitesmoke;
+}
+.df{
+    text-align: center;
+    font-weight: 200;
+    font-size: 30px;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    background-color: whitesmoke;
+}
+.cards{
+    
+   
+    BACKGROUND-COLOR: white;
+    width: 240px;
+    height: 270px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    color: black;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.cards:hover{
+    transform: scale(1.1);
+
+}
+.card img{
+    width: 387px;
+    height: 300px;
+}
+.carrd{
+     display: flex;
+     justify-content: space-around;
+     background-color: whitesmoke;
+    
+     padding-top: 10px;
+}
+.btn{
+    text-align: center;
+    background-color: whitesmoke;
+    gap: 10px;
+    padding-top: 20px;
+    height:10px;
+}
+.Academic{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    
+}
+.Academic img{
+    width: 400px;
+}
+.Academic p{
+    max-width: 400px;
+    font-weight: inherit;
+}
+.btn1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.research{
+    text-align: center;
+}
+.research h1{
+    font-weight: bolder;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.research p{
+    
+    font-size: 20px;
+}
+.Hero{
+    display: flex;
+    justify-content: space-around;
+    border-top:1px solid black ;
+    border-bottom: 1px solid black;
+    
+}
+.hero h1{
+    font-size: 40px;
+
+}
+.hero p{
+    font-size: 30px;
+}
+.footer{
+    
+    
+    background-color: purple;
+    color: white;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+.footer ul{
+          color: white;
+           list-style-type: none;
+           display: flex;
+           justify-content: center;
+           gap: 30px;
+           padding-right: 700px;
+           font-size: 20px;
+}
+.footer1{
+    list-style-type: none;
+    display: flex;
+    padding-right: 590px;
+    justify-content: center;
+    gap: 30px;
+    font-size: 20px;
+}
+.footer p{
+    text-align: center;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
